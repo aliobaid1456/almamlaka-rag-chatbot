@@ -1,0 +1,386 @@
+{
+ "meta": {
+  "timestamp_utc": "2026-10-15T15:22:24+00:00",
+  "llm_provider": "anthropic",
+  "llm_model": "claude-haiku-5-5",
+  "retrieval": "lexical (BM25 only)",
+  "embedding_model": null,
+  "top_k": 6
+ },
+ "mode": "retrieval-only (raw user question, no query rewriting)",
+ "retrieval": "lexical (BM25 only)",
+ "recall_by_language": {
+  "en": 1.0,
+  "ar": 0.125
+ },
+ "cases": [
+  {
+   "id": "en-01",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_budget_timeline-p1-c01"
+   ]
+  },
+  {
+   "id": "en-02",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_budget_timeline-p2-c02",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_team_governance-p1-c02"
+   ]
+  },
+  {
+   "id": "en-03",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_budget_timeline-p2-c03",
+    "almamlaka_budget_timeline-p2-c02"
+   ]
+  },
+  {
+   "id": "en-04",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_budget_timeline-p2-c02",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_budget_timeline-p2-c03"
+   ]
+  },
+  {
+   "id": "en-05",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p2-c05",
+    "almamlaka_team_governance-p1-c02",
+    "almamlaka_budget_timeline-p1-c01"
+   ]
+  },
+  {
+   "id": "en-06",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_budget_timeline-p1-c00"
+   ]
+  },
+  {
+   "id": "en-07",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p2-c03",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_team_governance-p2-c04",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_project_overview-p2-c04"
+   ]
+  },
+  {
+   "id": "en-08",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p2-c03",
+    "almamlaka_budget_timeline-p2-c02",
+    "almamlaka_project_overview-p2-c05",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_team_governance-p2-c03"
+   ]
+  },
+  {
+   "id": "en-09",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00"
+   ]
+  },
+  {
+   "id": "en-10",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_budget_timeline-p1-c01"
+   ]
+  },
+  {
+   "id": "en-11",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_budget_timeline-p2-c03"
+   ]
+  },
+  {
+   "id": "en-12",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p2-c03",
+    "almamlaka_project_overview-p2-c03",
+    "almamlaka_team_governance-p2-c04",
+    "almamlaka_project_overview-p2-c05"
+   ]
+  },
+  {
+   "id": "en-13",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_project_overview-p2-c03"
+   ]
+  },
+  {
+   "id": "en-14",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p2-c04",
+    "almamlaka_team_governance-p2-c03",
+    "almamlaka_project_overview-p2-c05",
+    "almamlaka_project_overview-p2-c03"
+   ]
+  },
+  {
+   "id": "multi-01",
+   "lang": "en",
+   "hit": 2,
+   "total": 2,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_budget_timeline-p1-c01"
+   ]
+  },
+  {
+   "id": "multi-02",
+   "lang": "en",
+   "hit": 2,
+   "total": 2,
+   "retrieved": [
+    "almamlaka_budget_timeline-p2-c03",
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_team_governance-p1-c02",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p2-c05"
+   ]
+  },
+  {
+   "id": "conflict-01",
+   "lang": "en",
+   "hit": 2,
+   "total": 2,
+   "retrieved": [
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p2-c04"
+   ]
+  },
+  {
+   "id": "conflict-02",
+   "lang": "en",
+   "hit": 2,
+   "total": 2,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c02",
+    "almamlaka_budget_timeline-p2-c02",
+    "almamlaka_budget_timeline-p2-c03",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_project_overview-p1-c01"
+   ]
+  },
+  {
+   "id": "calc-01",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_team_governance-p2-c05"
+   ]
+  },
+  {
+   "id": "premise-01",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_project_overview-p1-c01",
+    "almamlaka_budget_timeline-p1-c01"
+   ]
+  },
+  {
+   "id": "premise-02",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_team_governance-p1-c01",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_budget_timeline-p2-c03"
+   ]
+  },
+  {
+   "id": "partial-01",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p2-c03",
+    "almamlaka_project_overview-p2-c05",
+    "almamlaka_budget_timeline-p2-c02"
+   ]
+  },
+  {
+   "id": "ar-01",
+   "lang": "ar",
+   "hit": 0,
+   "total": 1,
+   "retrieved": []
+  },
+  {
+   "id": "ar-02",
+   "lang": "ar",
+   "hit": 0,
+   "total": 2,
+   "retrieved": []
+  },
+  {
+   "id": "ar-03",
+   "lang": "ar",
+   "hit": 0,
+   "total": 2,
+   "retrieved": []
+  },
+  {
+   "id": "ar-04",
+   "lang": "ar",
+   "hit": 0,
+   "total": 1,
+   "retrieved": []
+  },
+  {
+   "id": "fu-01",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p1-c02"
+   ]
+  },
+  {
+   "id": "fu-02",
+   "lang": "en",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_project_overview-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p1-c02",
+    "almamlaka_budget_timeline-p1-c01",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_team_governance-p1-c01"
+   ]
+  },
+  {
+   "id": "fu-03",
+   "lang": "ar",
+   "hit": 0,
+   "total": 1,
+   "retrieved": []
+  },
+  {
+   "id": "fu-04",
+   "lang": "ar",
+   "hit": 1,
+   "total": 1,
+   "retrieved": [
+    "almamlaka_team_governance-p1-c00",
+    "almamlaka_budget_timeline-p1-c00",
+    "almamlaka_team_governance-p2-c05",
+    "almamlaka_project_overview-p2-c04",
+    "almamlaka_project_overview-p1-c02"
+   ]
+  }
+ ]
+}
