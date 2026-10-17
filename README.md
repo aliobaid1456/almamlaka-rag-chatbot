@@ -2,9 +2,9 @@
 
 A bilingual (Arabic / English) RAG chatbot that answers questions about the Almamlaka TV **Digital Expansion Initiative** using only three supplied PDFs, cites the document and page for every answer, flags conflicts between documents, says so when the documents don't contain the answer, and resists prompt injection.
 
-- **Live demo:** _add your deployment URL here_
+- **Live demo:** https://almamlaka-rag-chatbot-2mtutw6mtzummevkapmwep.streamlit.app/
 - **Stack:** Streamlit · PyMuPDF · FastEmbed (multilingual MiniLM, ONNX) · FAISS + BM25 hybrid retrieval · any Anthropic or OpenAI-compatible LLM · pytest
-
+- **Deployed with:** Groq `openai/gpt-oss-120b` (free tier; the first request after idle may take ~1 minute while the app wakes up)
 > Independent technical demo built for an Almamlaka TV assessment; not an official Almamlaka TV service. The logo was supplied with the assessment.
 
 ---
@@ -147,11 +147,11 @@ Measured results:
 **Streamlit Community Cloud** (simplest)
 1. Push this repository to GitHub.
 2. On share.streamlit.io: *Create app* → pick the repo, branch, `app.py`; under *Advanced settings* choose Python 3.12 and paste secrets:
-   ```toml
-   LLM_PROVIDER = "anthropic"
+   LLM_PROVIDER = "openai_compatible"
+   LLM_BASE_URL = "https://api.groq.com/openai/v1"
+   LLM_MODEL = "openai/gpt-oss-120b"
+   LLM_REASONING_EFFORT = "low"
    LLM_API_KEY = "…"
-   LLM_MODEL = "claude-haiku-5-5"
-   ```
 3. Deploy. The first start downloads the embedding model (~220 MB) and builds the index (a few seconds).
 
 **Hugging Face Spaces (Docker)** — create a Docker Space, push the repo, add the same variables as *Secrets*. The `Dockerfile` downloads the embedding model and builds the index at build time, and runs as a non-root user on port 8501 (set `app_port: 8501` in the Space's README metadata).
